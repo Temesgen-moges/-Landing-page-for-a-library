@@ -34,7 +34,7 @@ const Navbar = ({ theme, setTheme }) => {
   };
 
   return (
-    <div className="fixed top-0 z-10 w-full shadow-md dark:bg-black dark:border-b border-white border-b-4 p-4 dark:text-white duration-300">
+    <div className="fixed top-0 z-10 w-full shadow-md  bg-white dark:bg-black dark:border-b border-white border-b-4 p-4 dark:text-white duration-300">
       <div className="container py-2 md:py-0">
         <div className="flex justify-between items-center">
           <div>
