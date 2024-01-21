@@ -8,7 +8,7 @@ const Footer = () => {
         <div className='w-full md:w-1/4'>
           <h1 className='font-semibold text-xl pb-4'>Ethio Tour</h1>
           <p className='text-sm'>
-            I am excited to inform you that this Ethio Tour website has been developed by Temesgen Technologies.
+          we excited to inform you that this One library website has been developed by Group-2.
           </p>
         </div>
         <div>
@@ -16,21 +16,22 @@ const Footer = () => {
           <nav className='flex flex-col gap-2'>
             <a className='hover:text-orange-600 transition-all cursor-pointer' href="to='home'">Home</a>
             <a className='hover:text-orange-600 transition-all cursor-pointer' href="to='dishes'">About</a>
-            <a className='hover:text-orange-600 transition-all cursor-pointer' href="">Destinations</a>
-            <a className='hover:text-orange-600 transition-all cursor-pointer' href="">Contacts</a>
+            <a className='hover:text-orange-600 transition-all cursor-pointer' href="">category</a>
+            
           </nav>
         </div>
         <div>
           <h1 className='font-medium text-xl pb-4 pt-5 md:pt-0'>Menu</h1>
           <nav className='flex flex-col gap-2'>
-            <a className='hover:text-orange-600 transition-all cursor-pointer' href="">Destination</a>
-            <a className='hover:text-orange-600 transition-all cursor-pointer' href="">Pepole revios</a>
+            <a className='hover:text-orange-600 transition-all cursor-pointer' href="">children</a>
+            <a className='hover:text-orange-600 transition-all cursor-pointer' href="">teenagers</a>
+            <a className='hover:text-orange-600 transition-all cursor-pointer' href="">adalts</a>
           </nav>
         </div>
         <div>
           <h1 className='font-medium text-xl pb-4 pt-5 md:pt-0'>Contact Us</h1>
           <nav className='flex flex-col gap-2'>
-            <a className='hover:text-orange-600 transition-all cursor-pointer' href="">temu1554@gmail.com</a>
+            <a className='hover:text-orange-600 transition-all cursor-pointer' href="">wku</a>
             <a className='hover:text-orange-600 transition-all cursor-pointer' href="">+251985246737</a>
             <a className='hover:text-orange-600 transition-all cursor-pointer' href="">Social media</a>
           </nav>
@@ -38,7 +39,7 @@ const Footer = () => {
       </div>
       <div>
         <p className='text-center py-4'>
-          @copyright developed by <span className='text-orange-600'>Temesgen M.</span>  All rights reserved
+          @copyright developed by <span className='text-orange-600'>Group-2.</span>  All rights reserved
         </p>
       </div>
     </div>

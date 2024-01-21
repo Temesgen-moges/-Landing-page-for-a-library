@@ -16,14 +16,10 @@ export const Navlinks = [
   },
   {
     id: 1,
-    name: "DESTINATIONS",
-    link: "/#gallery",
+    name: "CATEGORY ",
+    link: "/#card",
   },
-  {
-    id: 1,
-    name: "CONTACT",
-    link: "/#contact",
-  },
+ 
 ];
 
 const Navbar = ({ theme, setTheme }) => {
@@ -34,11 +30,11 @@ const Navbar = ({ theme, setTheme }) => {
   };
 
   return (
-    <div className="fixed top-0 z-10 w-full shadow-md dark:bg-black dark:border-b border-white border-b-4 p-4 dark:text-white duration-300">
+    <div className="fixed top-0 z-10 w-full shadow-md bg-white dark:bg-black dark:border-b border-white border-b-4 p-4 dark:text-white duration-300">
       <div className="container py-2 md:py-0">
         <div className="flex justify-between items-center">
           <div>
-            <span className="text-3xl font-bold font-serif">Ethio Tours</span>
+            <span className="text-3xl font-bold font-serif">One Library</span>
           </div>
           <nav className="hidden md:block">
             <ul className="flex items-center gap-8">

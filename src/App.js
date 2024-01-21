@@ -6,11 +6,9 @@ import "aos/dist/aos.css";
 import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
 import About from "./components/About/About";
-import Services from "./components/Services/Services";
-import Contact from "./components/Contact/Contact";
-import Testimonial from "./components/Testimonial/Testimonial";
+
 import Footer from "./components/Footer";
-import Gallery from "./components/Gallery";
+import Card from "./components/Card";
 
 
 const App = () => {
@@ -45,12 +43,7 @@ const App = () => {
       <Navbar theme={theme} setTheme={setTheme} />
       <Hero theme={theme} />
       <About />
-      <Services />
-      <Gallery/>
-     
-      <Testimonial />
-      {/* <AppStoreBanner /> */}
-      <Contact />
+      <Card />
       <Footer />
     </div>
   );

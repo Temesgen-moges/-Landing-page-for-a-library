@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import carPng from "../../assets/car.png";
-import yellowCar from "../../assets/banner-car.png";
+import carPng from "../../assets/W (1).png";
+import yellowCar from "../../assets/W (2).png";
 import AOS from "aos";
 
 const Hero = ({ theme }) => {
@@ -30,11 +30,10 @@ const Hero = ({ theme }) => {
               data-aos-delay="600"
               className="text-5xl lg:text-7xl font-semibold font-serif"
             >
-              Ethio tours
+              One Library
             </h1>
             <p data-aos="fade-up" data-aos-delay="1000">
-            Embark on an unforgettable journey through the cradle of civilization,
-             where ancient traditions meet breathtaking landscapes of Ethiopia
+            Dive into the world of imagination and discovery at one library, where the magic of books comes alive for readers of all ages.
             </p>
             <button
               data-aos="fade-up"

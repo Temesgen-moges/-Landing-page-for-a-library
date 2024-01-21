@@ -1,8 +1,14 @@
 import React, { useEffect } from "react";
-import CarPng from "../../assets/car1.png";
+import CarPng from "../../assets/q.png";
 import { IoAirplaneSharp } from "react-icons/io5";
 import { FaHotel } from "react-icons/fa";
 import { FaCarSide } from "react-icons/fa";
+import { FaChildren } from "react-icons/fa6";
+
+import { FaUsers } from "react-icons/fa6";
+import { FaUserSecret } from "react-icons/fa";
+import { FaChild, FaTeenager, FaUser } from 'react-icons/fa';
+
 
 const About = () => {
   return (
@@ -26,21 +32,22 @@ const About = () => {
                 About us
               </h1>
               <p data-aos="fade-up" className="leading-8 tracking-wide">
-               At Ethiopian Tours and Travels, we are a team of dedicated professionals who share 
-               a deep love for Ethiopia and a commitment to providing exceptional travel experiences.
-              </p>
-              <div className="flex items-center">
-                <IoAirplaneSharp className="text-3xl mr-2 text-blue-500" />
-                <span className="text-lg">Air Tickets</span>
-              </div>
-              <div  className="flex items-center">
-                <FaHotel data-aos="fade-up" className="text-3xl mr-2 text-green-500" />
-                <span className="text-lg">Hotels Booking</span>
-              </div>
-              <div data-aos="slide-right" className="flex items-center">
-                <FaCarSide className="text-3xl mr-2 text-red-500" />
-                <span className="text-lg">Tours</span>
-              </div>
+              Dedicated to fostering a love for literature, our mission is to provide a diverse
+               and enriching reading experience for adults, children, and teenagers alike.</p>
+               <div className="flex items-center">
+  
+  <FaChildren className="text-3xl mr-2 text-blue-500" />
+
+  <span className="text-lg">Children</span>
+</div>
+<div className="flex items-center">
+  <FaUsers  data-aos="fade-up" className="text-3xl mr-2 text-green-500" />
+  <span className="text-lg">Teenagers</span>
+</div>
+<div data-aos="slide-right" className="flex items-center">
+  <FaUserSecret  className="text-3xl mr-2 text-red-500" />
+  <span className="text-lg">Adults</span>
+</div>
               <button data-aos="fade-up" className="button-outline">
                 Get Started
               </button>
